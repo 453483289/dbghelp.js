@@ -21,11 +21,11 @@ var lib_dbghelp = null;
 
 if ( arch_x64 )
 {
-    lib_dbghelp = ffi.DynamicLibrary( path.resolve('./bin/amd64/dbghelp.dll') );
+    lib_dbghelp = ffi.DynamicLibrary( path.resolve( path.basename( __dirname) , './bin/amd64/dbghelp.dll') );
 }
 else
 {
-    lib_dbghelp = ffi.DynamicLibrary( path.resolve('./bin/i386/dbghelp.dll') );
+    lib_dbghelp = ffi.DynamicLibrary( path.resolve( path.basename( __dirname) , './bin/i386/dbghelp.dll') );
 }
 
 var declare_table = {
