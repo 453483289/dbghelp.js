@@ -1,0 +1,40 @@
+{
+  "name": "dbghelp.js",
+  "version": "0.0.1",
+  "private": false,
+  "description": "windows dbghelp util",
+  "scripts": {},
+  "preferGlobal": false,
+  "bin": {},
+  "main": "index.js",
+  "keywords": [
+    "windows",
+    "dbghelp"
+  ],
+  "author": {
+    "name": "TinySec",
+    "email": "root@tinysec.net",
+    "url": "http://tinysec.net"
+  },
+  "homepage": "https://github.com/tinysec/dbghelp.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinysec/dbghelp.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinysec/dbghelp.js/issues"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.17",
+    "cprintf": "^1.0.44",
+    "ffi": "^2.2.0",
+    "ref": "^1.3.4",
+    "ref-sizeof": "0.0.1",
+    "ref-struct": "^1.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "ejs": "^2.5.6"
+  },
+  "license": "MIT"
+}
